@@ -1,7 +1,7 @@
 Renren-Social-Analysis
 ======================
 
-This is the my Social Analysis of my [`renren`](http://www.renren.com) network.
+This is the Social Analysis of my [`renren`](http://www.renren.com) network.
 
 First, run `myFriends.py`, then you will get all `ids` and `names` of all your friends.<br>
 Then, run `friendsFriends.py`, and it will write into file `data.csv` in certain format.
