@@ -80,10 +80,10 @@ def getFriendsPages(friendsListUrl):
 
 if __name__ == "__main__":
 	html = login()
-	f = open('data_tag.py', 'w')
+	f = open('data_tag.csv', 'w')
 	f.write('')
 	f.close()
-	f = open('data_tag.py', 'a')
+	f = open('data_tag.csv', 'a')
 	f.write("myFriendsIds = (")
 	friendsListUrl = getFriendsListUrl(html)
 	getFriendsPages(friendsListUrl)
