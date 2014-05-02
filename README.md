@@ -10,6 +10,6 @@ Open `data_tag.csv` and `data.csv` in Gephi. Be patient since the file is large.
 
 My analysis is as followed.
 
-![data_tag.svg](data_tag.svg)
+![data_tag.png](data_tag.png)
 
 ![data.png](data.png)
