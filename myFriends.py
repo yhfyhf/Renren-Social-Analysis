@@ -59,8 +59,7 @@ def getFriends(html):
 	for friend in friendsLinks:
 		friendId = friend[0]
 		friendName = friend[1]
-		# f.write(friendId + ', ')
-		f.write(friendName + ', ')
+		f.write(friendId + ', ')
 		
 
 	
@@ -82,11 +81,9 @@ def getFriendsPages(friendsListUrl):
 
 if __name__ == "__main__":
 	html = login()
-	# f = open('data.py', 'w')
-	f = open('data_tag.py', 'w')
 	f.write('')
 	f.close()
-	f = open('data_tag.py', 'w')
+	f = open('data.py', 'w')
 	f.write("myFriendsIds = (")
 	friendsListUrl = getFriendsListUrl(html)
 	getFriendsPages(friendsListUrl)
