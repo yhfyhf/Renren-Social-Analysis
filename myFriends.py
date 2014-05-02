@@ -81,9 +81,10 @@ def getFriendsPages(friendsListUrl):
 
 if __name__ == "__main__":
 	html = login()
+	f = open('data.py', 'w')
 	f.write('')
 	f.close()
-	f = open('data.py', 'w')
+	f = open('data.py', 'a')
 	f.write("myFriendsIds = (")
 	friendsListUrl = getFriendsListUrl(html)
 	getFriendsPages(friendsListUrl)
